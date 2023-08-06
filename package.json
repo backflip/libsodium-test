@@ -1,0 +1,21 @@
+{
+  "name": "libsodium-test",
+  "version": "1.0.0",
+  "description": "Demo for possible libsodium.js plugin development setup",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": "backflip/libsodium-test",
+  "author": "Thomas Jaggi",
+  "license": "ISC",
+  "dependencies": {
+    "libsodium-wrappers": "^0.7.11"
+  },
+  "devDependencies": {
+    "vite": "^4.4.8"
+  }
+}
